@@ -27,6 +27,7 @@ h1{
 main{ 
   margin-top: 40px;
   color: white;
+  font-size: 13px;
 }
 
 img{
@@ -34,6 +35,10 @@ img{
 }
 
 /* SECTION LAYOUT */
+
+.section-margin{
+  margin-top: 40px;
+}
 .col img{
   float: left;
 }
@@ -48,16 +53,25 @@ img{
 .col{
   float: left;
   width: calc( 100% / 3 );
+  padding-right: 30px;
+
+}
+
+.card {
+  text-align: left;
   background-color: #0f0e17;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.70);
 }
 
 h3{
   font-weight: 400;
+  padding: 5px 0;
+  font-size: 17px;
 }
 
 .text-padding{
 
-  padding-top: 10px;
+  padding-top: 8px;
   padding-left: 110px;
 }
 
@@ -65,6 +79,7 @@ h3{
 a:link {
   text-decoration: none;
   color: #4ca4c6;
+  font-size: 15px;
 }
 
 a:visited {
